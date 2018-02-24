@@ -1,0 +1,254 @@
+/*------------------------------------------------------------------------------
+    MAIN  STYLES    
+------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #166a96;
+    position: relative;
+    margin: 0;
+    padding-bottom: 0;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-wrapper {
+    background: white;
+    position: relative;
+    top: 50px;
+    -moz-box-shadow: 0 0 10px #757575;
+}
+
+#page-dashboard {
+    width: 100%;
+    margin: 0px 20px 10px 0px;
+    padding: 2px;
+    background-color: #166a96;
+    background-size: cover;
+    height: 700px;
+}
+
+
+
+/*------------------------------------------------------------------------------
+    TOP NAVBAR    
+------------------------------------------------------------------------------*/
+
+.top-navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 300;
+    background: #093c5b;
+    border: none;
+    padding-right: 10px;
+}
+
+.navbar {
+    min-height: 40px;
+}
+
+.navbar-brand {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.top-navbar .navbar-brand {
+    color: white;
+    width: 1000px;
+    text-align: left;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    line-height: 30px;
+    background: #093c5b;
+    border-radius: 10px;
+}
+
+.navbar-brand i.large.material-icons {
+    float: left;
+    font-size: 32px;
+    margin-right: 6px;
+}
+
+/*------------------------------------------------------------------------------
+    DASHBOARD CARDS    
+------------------------------------------------------------------------------*/
+
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-8,
+.col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+#title_card {
+    background-color: #093c5b;
+    border-style: solid;
+    border-color: #166a96;
+    vertical-align: middle;
+    border-bottom: none;
+    text-align: left;
+}
+
+#title_card p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+#title_card h3 {
+    color: #FFCB9A;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#selector_card {
+    background-color: #093c5b;
+    min-height: 143px;
+    border-style: solid;
+    border-color: #166a96;
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center
+}
+
+#shipment_card {
+    background-color: #093c5b;
+    min-height: 165px;
+    border-style: solid;
+    border-color: #166a96;
+    margin: 0px;
+    color: darkblue;
+    text-align: center
+}
+
+#percent_card {
+    background-color: #093c5b;
+    min-height: 50px;
+    font-size: 18px;
+    margin: 0px;
+    color: white;
+    text-align: left;
+    padding: 13px 0px 5px 0px;
+
+}
+
+.number-box {
+    background-color: #093c5b;
+    min-height: 60px;
+    margin: 0px;
+    margin-right: 0px;
+    color: white;
+    text-align: right;
+    font-size: 22px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+#small_plot {
+    background-color: white;
+    border-style: solid;
+    border-color: #166a96;
+    min-height: 380px;
+    margin: 0px;
+    padding: 20px 10px 0px 30px;
+}
+
+#medium_plot {
+    background-color: white;
+    border-style: solid;
+    border-color: #166a96;
+    min-height: 380px;
+    margin: 0px;
+    padding: 40px 10px 0px 100px;
+}
+
+
+#large_plot {
+    background-color: white;
+    border-style: solid;
+    border-color: #166a96;
+    min-height: 400px;
+    margin: 0px;
+    padding: 40px 10px 0px 60px;
+}
+
+#map_graph {
+    background-color: white;
+    border-style: solid;
+    border-color: #166a96;
+    max-height: 400px;
+    margin: 0px;
+    padding: 30px 10px 0px 60px;
+    overflow: hidden;
+}
+
+#region-selector {
+    float: none;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+/*------------------------------------------------------------------------------
+    PLOTS AND TOOLTIPS
+------------------------------------------------------------------------------*/
+
+.tooltip {   
+    position: absolute;
+ 
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    pointer-events: none;
+    font-size:14px;
+}
+
+.y-axis path,
+.y-axis line {
+    fill: none;
+    stroke: black;
+}
+
+.x-axis path {
+    display:none;
+
+}
+
+.x-axis, .y-axis text {
+    font-size: 10px;
+}
+
+#barscale {
+  position: absolute;
+  top:  280px;
+  left: 60;
+  max-width: 200px;
+}
+
+#small_plot .dc-chart .bar {
+    fill: #166a96;
+}

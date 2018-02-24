@@ -14,7 +14,7 @@
         .range(['#bce4d8', '#57abbe']);
 
     // SVG 
-    const svg = d3.select('#bottomRight')
+    const svg = d3.select('#USMap')
         .append('svg')
         .attr('width', width)
         .attr('height', height);

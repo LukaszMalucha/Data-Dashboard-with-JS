@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+
+  <!-- Material Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+  <!-- FontAwesome Styles-->
+  <link href="assets/css/font-awesome.css" rel="stylesheet" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Custom Styles-->
+  <link href="assets/css/custom-styles.css" rel="stylesheet" />
+  <!-- Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- JS -->
+  <link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />
+
+
+  <!-- JS Scripts -->
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript" src="assets/js/d3.min.js"></script>
+  <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
+  <script type="text/javascript" src="assets/js/dc.min.js"></script>
+  <script type="text/javascript" src="assets/js/queue.min.js"></script>
+  <script type="text/javascript" src="assets/js/superstore_main.js"></script>
+
+
+</head>
+
+
+<body>
+
+  <!-- WRAPPER -->
+  <div id="wrapper">
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand waves-effect waves-dark" href="index.html"><i class="large material-icons">blur_on</i><strong>SuperStore US Sales & Profit 2017</strong></a>
+      </div>
+
+    </nav>
+
+    <!--/. TOP NAVBAR ****************************************************************************************************************************************************************************************** -->
+
+
+    <div id="page-wrapper">
+      <div id="page-dashboard">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p>Select Region:</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="selector_card">
+                <div id="region-selector"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="title_card">
+                <p>% of Consumers in each mode:</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="shipment_card">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div id="percent_card">
+                      <p>First Class Shipment</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="number-box" id="percent-of-FirstClass-shipment"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-9">
+                    <div id="percent_card">
+                      <p>Second Class Shipment</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="number-box" id="percent-of-SecondClass-shipment"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-9">
+                    <div id="percent_card">
+                      <p>Standard Class Shipment</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="number-box" id="percent-of-StandardClass-shipment"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p>Share of each category among transactions :</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="small_plot">
+                <div id="category_transactions"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p>Average profit per transaction (USD):</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="small_plot">
+                <div id="average-profit"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p>Segment distribution among product categories:</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="medium_plot">
+                <div id="segment-distribution"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p class="section-paragraph">Sales per Month (top 3 profitable months marked on green):</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div id="large_plot">
+                <svg id="barChart"></svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-12">
+              <div id="title_card">
+                <p class="section-paragraph">Sales in each State:</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+
+              <div id="map_graph">
+                  <div id="bottomRight"></div>
+                <div id="barscale">  
+                  <img src="assets/img/barscale.gif">
+                </div>  
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page-Selection -->
+      </div>
+      <!-- Page-Wrapper -->
+    </div>
+    <!-- /. WRAPPER  -->
+    
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Materialize Js -->
+    <script src="assets/materialize/js/materialize.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/thousand-k.js"></script>
+    <script src="assets/js/monthly_sales.js"></script>
+    <script src="assets/js/annual_by_state.js"></script>
+
+</body>
+
+</html>

@@ -27,12 +27,14 @@ Goal of the project is to visualise data in a way that'll allow business analyst
 ## Project Scope:
 
 First row of graphs will be fully connected to region selector<br>
-Second row graphs will have tooltips
-
+Second row graphs will have tooltips<br>
+Dashboard should present variety of different tools and features of DC.js & D3.js
 
 ## Out of Project Scope:
 
-Dashboard doesn't have to be fully responsive, as per Milestone Project instruction.
+Dashboard doesn't have to be fully responsive, as per Milestone Project instruction.<br>
+
+
 
 ## Tools, Modules and Techniques:
 

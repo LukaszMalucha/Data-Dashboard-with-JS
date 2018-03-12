@@ -4,8 +4,10 @@
 
 Simple Dashboard created to visualise sales report of imaginary SuperStore - mid-tier business specialised in office equipment distribution.
 
-Dataset:
-https://community.tableau.com/docs/DOC-1236
+## Project Link:
+
+https://lukaszmalucha.github.io/IFD-Milestone-Project/index.html
+
 
 
 ## Goal Statement:
@@ -35,6 +37,8 @@ Dashboard should present variety of different tools and features of DC.js & D3.j
 Dashboard doesn't have to be fully responsive, as per Milestone Project instruction.<br>
 
 
+## Dataset:
+https://community.tableau.com/docs/DOC-1236
 
 ## Tools, Modules and Techniques:
 

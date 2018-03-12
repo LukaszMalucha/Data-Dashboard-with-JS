@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #166a96;
+    background: #C0C0C0;
     position: relative;
     margin: 0;
     padding-bottom: 0;
@@ -21,7 +21,7 @@ html {
 }
 
 #page-wrapper {
-    background: white;
+    background: #C0C0C0;
     position: relative;
     top: 50px;
     -moz-box-shadow: 0 0 10px #757575;
@@ -31,7 +31,7 @@ html {
     width: 100%;
     margin: 0px 20px 10px 0px;
     padding: 2px;
-    background-color: #166a96;
+    background-color: #C0C0C0;
     background-size: cover;
     height: 700px;
 }
@@ -104,7 +104,7 @@ html {
 #title_card {
     background-color: #093c5b;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     vertical-align: middle;
     border-bottom: none;
     text-align: left;
@@ -128,7 +128,7 @@ html {
     background-color: #093c5b;
     min-height: 143px;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     margin: 0px;
     padding-top: 50px;
     text-align: center
@@ -138,7 +138,7 @@ html {
     background-color: #093c5b;
     min-height: 165px;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     margin: 0px;
     color: darkblue;
     text-align: center
@@ -170,7 +170,7 @@ html {
 #small_plot {
     background-color: white;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     min-height: 380px;
     margin: 0px;
     padding: 20px 10px 0px 30px;
@@ -179,7 +179,7 @@ html {
 #medium_plot {
     background-color: white;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     min-height: 380px;
     margin: 0px;
     padding: 40px 10px 0px 100px;
@@ -189,7 +189,7 @@ html {
 #large_plot {
     background-color: white;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     min-height: 400px;
     margin: 0px;
     padding: 40px 10px 0px 60px;
@@ -198,7 +198,7 @@ html {
 #map_graph {
     background-color: white;
     border-style: solid;
-    border-color: #166a96;
+    border-color: #C0C0C0;
     max-height: 400px;
     margin: 0px;
     padding: 30px 10px 0px 60px;

@@ -40,6 +40,15 @@ Dashboard doesn't have to be fully responsive, as per Milestone Project instruct
 ## Dataset:
 https://community.tableau.com/docs/DOC-1236
 
+## Manual Tests:
+1. Region Selector affects first three plots properly 
+2. Region Selector affects percentage values
+3. Tooltip calculations (last two graphs) correct
+4. Run manual dataset calculations against dashboard calculated values (mockup Tableau)
+![tableau](https://user-images.githubusercontent.com/26208598/38735663-523113ba-3f21-11e8-9721-1a0286dc0700.JPG)
+5. Responsivity test
+
+
 ## Tools, Modules and Techniques:
 
 HTML:<br>

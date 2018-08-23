@@ -32,10 +32,6 @@ First row of graphs will be fully connected to region selector<br>
 Second row graphs will have tooltips<br>
 Dashboard should present variety of different tools and features of DC.js & D3.js
 
-## Out of Project Scope:
-
-Dashboard doesn't have to be fully responsive, as per Milestone Project instruction.<br>
-
 
 ## Dataset:
 https://community.tableau.com/docs/DOC-1236
@@ -78,9 +74,6 @@ https://d3js.org/
 ## Credits & Inspirations:
 Page layout and architecture:<br>
 https://lukaszmalucha.github.io/UCFD-Milestone-Project/
-
-## Region Selector & responsive bar charts:
-Code Institute - Interactive Frontend Development - "Data visualization mini project"
 
 ## US Map chart:
 https://bl.ocks.org/mbostock/4090848

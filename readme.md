@@ -72,8 +72,6 @@ D3.js:<br>
 https://d3js.org/
 
 ## Credits & Inspirations:
-Page layout and architecture:<br>
-https://lukaszmalucha.github.io/UCFD-Milestone-Project/
 
 ## US Map chart:
 https://bl.ocks.org/mbostock/4090848
